@@ -33,4 +33,80 @@ html {
   font-size: 12px;
   float: left;
   padding: 0px 10px;
+  margin: 10px 0px;
+}
+
+#footer img {
+  border: none;
+}
+
+#footer li ul {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 12px;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+
+#footer .whiteBorder {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+#footer .imgLeft {
+  float: left;
+  margin-right: 10px;
+  width: 40px;
+}
+
+#footer .blackBox {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#footer #notificationSection {
+  float: right;
+  width: auto;
+  margin: 5px 15px 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#footer #notificationSection li {
+  margin-right: 12px;
+  float: left;
+  width: 24px;
+  padding: 0px;
+  height: 32px;
+  list-style: none;
+}
+
+#footer #notificationSection li:hover {
+  margin-top: -1px;
+}
+
+a.notificationIcons span {
+  display: none;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  bottom: 45px;
+  width: 150px;
+  position: absolute;
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 3px;
+  padding: 5px;
+  margin-left: -75px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+a.notificationIcons:hover span {
+  display:block
 }

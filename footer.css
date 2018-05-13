@@ -110,3 +110,44 @@ a.notificationIcons span {
 a.notificationIcons:hover span {
   display:block
 }
+
+#footer_menu {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+
+#footer_menu li {
+  list-style: none;
+  float: left;
+  font-size: 12px;
+  padding: 12px 14px 14px 14px;
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#footer_menu li:hover {
+  background-color: rgba(0, 0, 0, 0.3)
+}
+
+#footer_menu li a {
+  display: block;
+  color: rgb(217, 217, 217);
+  text-decoration: none;
+}
+
+#footer_menu li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Drop Up Menu */
+
+#footer_menu li ul.dropup {
+  display: none;
+}
+
+#footer_menu li:hover ul.dropup {
+  display: block;
+  position: absolute;
+  margin: 0px 0px 0px -15px;
+}
